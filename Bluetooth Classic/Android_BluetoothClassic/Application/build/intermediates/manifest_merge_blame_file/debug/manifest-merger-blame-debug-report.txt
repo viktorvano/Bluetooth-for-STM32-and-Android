@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2014 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.bluetoothchat"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="18"
+23-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml
+25
+26    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+27
+28    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+28-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:26:5-74
+28-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:26:22-71
+29    <uses-permission android:name="android.permission.BLUETOOTH" />
+29-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:27:5-68
+29-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:27:22-65
+30
+31    <application
+31-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:29:5-55:19
+32        android:allowBackup="true"
+32-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:30:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@drawable/ic_launcher"
+35-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:31:9-45
+36        android:label="@string/app_name"
+36-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:32:9-41
+37        android:screenOrientation="portrait"
+37-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:34:9-45
+38        android:theme="@style/AppTheme" >
+38-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:33:9-40
+39        <activity
+39-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:37:9-46:20
+40            android:name="com.example.android.bluetoothchat.MainActivity"
+40-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:38:13-41
+41            android:configChanges="orientation|keyboardHidden"
+41-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:39:13-63
+42            android:label="@string/app_name"
+42-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:40:13-45
+43            android:screenOrientation="portrait" >
+43-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:41:13-49
+44            <intent-filter>
+44-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:42:13-45:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:43:17-69
+45-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:43:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:44:17-77
+47-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:44:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:48:9-53:51
+51            android:name="com.example.android.bluetoothchat.DeviceListActivity"
+51-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:49:13-47
+52            android:configChanges="orientation|keyboardHidden"
+52-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:50:13-63
+53            android:label="@string/select_device"
+53-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:51:13-50
+54            android:screenOrientation="portrait"
+54-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:53:13-49
+55            android:theme="@android:style/Theme.Holo.Dialog" />
+55-->D:\Google Drive\AndroidStudioProjects\BluetoothClassic\Application\src\main\AndroidManifest.xml:52:13-61
+56    </application>
+57
+58</manifest>
