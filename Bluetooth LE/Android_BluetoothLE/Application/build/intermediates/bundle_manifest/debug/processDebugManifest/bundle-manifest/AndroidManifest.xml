@@ -50,14 +50,17 @@
         android:theme="@android:style/Theme.Holo.Light" >
         <activity
             android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.bluetoothlegatt.DeviceControlActivity" />
+        <activity
+            android:name="com.example.android.bluetoothlegatt.DeviceControlActivity"
+            android:screenOrientation="portrait" />
 
         <service
             android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
