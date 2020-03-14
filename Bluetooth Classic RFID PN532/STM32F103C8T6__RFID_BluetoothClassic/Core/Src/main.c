@@ -35,6 +35,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define use_HEXADECIMAL
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -144,7 +145,11 @@ int main(void)
 	    	for(uint8_t i=0; i<uid_len; i++)
 	    	{
 	    		memset(stringForHex, 0, sizeof(stringForHex));
+				#ifdef use_HEXADECIMAL
+	    		sprintf(stringForHex, "%02X ", (unsigned char)uid[i]);
+				#else
 	    		sprintf(stringForHex, "%d ", (unsigned char)uid[i]);
+				#endif
 	    		strcat(buffer, stringForHex);
 	    	}
 	    	buffer[strlen(buffer)-1] = '\n';
