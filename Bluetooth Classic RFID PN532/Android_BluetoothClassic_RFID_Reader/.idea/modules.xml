@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android_BluetoothClassic_RFID_Reader.iml" filepath="$PROJECT_DIR$/Android_BluetoothClassic_RFID_Reader.iml" group="Android_BluetoothClassic_RFID_Reader" />
+      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" group="Android_BluetoothClassic_RFID_Reader/Application" />
+    </modules>
+  </component>
+</project>

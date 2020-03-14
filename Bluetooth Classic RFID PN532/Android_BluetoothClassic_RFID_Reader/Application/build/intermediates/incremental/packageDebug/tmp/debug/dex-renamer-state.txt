@@ -1,0 +1,4 @@
+#Sat Mar 14 13:16:55 CET 2020
+base.0=D\:\\Google Drive\\AndroidStudioProjects\\Android_BluetoothClassic_RFID_Reader\\Application\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
