@@ -162,7 +162,6 @@ int main(void)
  80001ba:	f107 030c 	add.w	r3, r7, #12
  80001be:	4618      	mov	r0, r3
  80001c0:	f000 ff10 	bl	8000fe4 <PN532_SPI_Init>
-  //PN532_I2C_Init(&pn532);
   PN532_GetFirmwareVersion(&pn532, buff);
  80001c4:	f107 0230 	add.w	r2, r7, #48	; 0x30
  80001c8:	f107 030c 	add.w	r3, r7, #12

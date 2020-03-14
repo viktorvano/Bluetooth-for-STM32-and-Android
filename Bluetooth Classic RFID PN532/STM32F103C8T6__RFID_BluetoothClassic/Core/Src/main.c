@@ -113,7 +113,6 @@ int main(void)
 
   PN532 pn532;
   PN532_SPI_Init(&pn532);
-  //PN532_I2C_Init(&pn532);
   PN532_GetFirmwareVersion(&pn532, buff);
   if (PN532_GetFirmwareVersion(&pn532, buff) != PN532_STATUS_OK)
   {
