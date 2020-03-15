@@ -11,4 +11,5 @@ Works with JDY-08 module. For other Bluetooth LE modules, you need to modify UUI
 
   
 For RFID I have used this library, which I have modified: https://github.com/soonuse/pn532-lib/blob/master/examples/stm32/stm32.7z  
-RFID project example uses PN532 to read UID from RFID card and then send it as a string to the Android app via Bluetooth.
+RFID project example uses PN532 to read UID from RFID card and then send it as a string to the Android app via Bluetooth.  
+RFID Tutorial: https://www.youtube.com/watch?v=ARtuPrKluho  
