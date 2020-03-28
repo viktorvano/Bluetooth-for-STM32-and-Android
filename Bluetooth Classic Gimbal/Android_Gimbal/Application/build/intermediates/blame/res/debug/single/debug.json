@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bluetooth.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\layout\\fragment_bluetooth.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_device_access_bluetooth_searching.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-xhdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\layout_message.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\layout_device_name.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\layout-w720dp_activity_main.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\layout-w720dp\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tile.9.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_list.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_device_access_bluetooth_searching.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-mdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_device_access_bluetooth_searching.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\menu_bluetooth_chat.xml.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
+        "merged": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_device_access_bluetooth_searching.png.flat",
+        "source": "D:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
+    }
+]

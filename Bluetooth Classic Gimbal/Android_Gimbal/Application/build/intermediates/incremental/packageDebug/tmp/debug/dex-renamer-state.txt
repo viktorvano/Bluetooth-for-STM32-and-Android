@@ -1,0 +1,4 @@
+#Sat Mar 28 22:16:25 CET 2020
+base.0=D\:\\Google Drive\\AndroidStudioProjects\\Android_Gimbal\\Application\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

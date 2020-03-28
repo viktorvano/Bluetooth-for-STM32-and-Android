@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2014 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="eu.cyberpunktech.gimbal.bluetooth"
+19    android:keepScreenOn="true"
+20    android:screenOrientation="landscape"
+21    android:versionCode="1"
+22    android:versionName="1.0" >
+23
+24    <uses-sdk
+25        android:minSdkVersion="18"
+25-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml
+26        android:targetSdkVersion="29" />
+26-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml
+27
+28    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+29
+30    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+30-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:28:5-74
+30-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:28:22-71
+31    <uses-permission android:name="android.permission.BLUETOOTH" />
+31-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:29:5-68
+31-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:29:22-65
+32
+33    <application
+33-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:31:5-57:19
+34        android:allowBackup="true"
+34-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:32:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.1.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@drawable/ic_launcher"
+37-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:33:9-45
+38        android:keepScreenOn="true"
+38-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:37:9-36
+39        android:label="@string/app_name"
+39-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:34:9-41
+40        android:screenOrientation="landscape"
+40-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:36:9-46
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme" >
+42-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:35:9-40
+43        <activity
+43-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:40:9-48:20
+44            android:name="eu.cyberpunktech.gimbal.bluetooth.MainActivity"
+44-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:41:13-74
+45            android:configChanges="orientation|keyboardHidden"
+45-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:42:13-63
+46            android:label="@string/app_name" >
+46-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:43:13-45
+47            <intent-filter>
+47-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:44:13-47:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:45:17-69
+48-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:45:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:46:17-77
+50-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:46:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:50:9-55:42
+54            android:name="eu.cyberpunktech.gimbal.bluetooth.DeviceListActivity"
+54-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:51:13-80
+55            android:configChanges="orientation|keyboardHidden"
+55-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:52:13-63
+56            android:keepScreenOn="true"
+56-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:55:13-40
+57            android:label="@string/select_device"
+57-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:53:13-50
+58            android:theme="@android:style/Theme.Holo.Dialog" />
+58-->D:\Google Drive\AndroidStudioProjects\Android_Gimbal\Application\src\main\AndroidManifest.xml:54:13-61
+59    </application>
+60
+61</manifest>
