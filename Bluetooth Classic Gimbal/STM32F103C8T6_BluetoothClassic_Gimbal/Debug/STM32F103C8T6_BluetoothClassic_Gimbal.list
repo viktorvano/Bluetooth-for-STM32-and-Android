@@ -796,7 +796,7 @@ void Message_handler()
  8000572:	d10a      	bne.n	800058a <Message_handler+0x62>
  8000574:	4b30      	ldr	r3, [pc, #192]	; (8000638 <Message_handler+0x110>)
  8000576:	881b      	ldrh	r3, [r3, #0]
- 8000578:	2b81      	cmp	r3, #129	; 0x81
+ 8000578:	2b7c      	cmp	r3, #124	; 0x7c
  800057a:	d806      	bhi.n	800058a <Message_handler+0x62>
 			pitch++;
  800057c:	4b2e      	ldr	r3, [pc, #184]	; (8000638 <Message_handler+0x110>)
@@ -813,7 +813,7 @@ void Message_handler()
  8000590:	d109      	bne.n	80005a6 <Message_handler+0x7e>
  8000592:	4b29      	ldr	r3, [pc, #164]	; (8000638 <Message_handler+0x110>)
  8000594:	881b      	ldrh	r3, [r3, #0]
- 8000596:	2b44      	cmp	r3, #68	; 0x44
+ 8000596:	2b3e      	cmp	r3, #62	; 0x3e
  8000598:	d905      	bls.n	80005a6 <Message_handler+0x7e>
 			pitch--;
  800059a:	4b27      	ldr	r3, [pc, #156]	; (8000638 <Message_handler+0x110>)
@@ -860,21 +860,21 @@ void Message_handler()
 		if(pitch > Pitch_MAX)
  80005e0:	4b15      	ldr	r3, [pc, #84]	; (8000638 <Message_handler+0x110>)
  80005e2:	881b      	ldrh	r3, [r3, #0]
- 80005e4:	2b82      	cmp	r3, #130	; 0x82
+ 80005e4:	2b7d      	cmp	r3, #125	; 0x7d
  80005e6:	d902      	bls.n	80005ee <Message_handler+0xc6>
 			pitch = Pitch_MAX;
  80005e8:	4b13      	ldr	r3, [pc, #76]	; (8000638 <Message_handler+0x110>)
- 80005ea:	2282      	movs	r2, #130	; 0x82
+ 80005ea:	227d      	movs	r2, #125	; 0x7d
  80005ec:	801a      	strh	r2, [r3, #0]
 
 		if(pitch < Pitch_MIN)
  80005ee:	4b12      	ldr	r3, [pc, #72]	; (8000638 <Message_handler+0x110>)
  80005f0:	881b      	ldrh	r3, [r3, #0]
- 80005f2:	2b43      	cmp	r3, #67	; 0x43
+ 80005f2:	2b3d      	cmp	r3, #61	; 0x3d
  80005f4:	d802      	bhi.n	80005fc <Message_handler+0xd4>
 			pitch = Pitch_MIN;
  80005f6:	4b10      	ldr	r3, [pc, #64]	; (8000638 <Message_handler+0x110>)
- 80005f8:	2244      	movs	r2, #68	; 0x44
+ 80005f8:	223e      	movs	r2, #62	; 0x3e
  80005fa:	801a      	strh	r2, [r3, #0]
 
 		if(roll > Roll_MAX)
@@ -1470,21 +1470,21 @@ void TIM4_IRQHandler(void)
 	if(pitch > Pitch_MAX)
  80008cc:	4b15      	ldr	r3, [pc, #84]	; (8000924 <TIM4_IRQHandler+0x5c>)
  80008ce:	881b      	ldrh	r3, [r3, #0]
- 80008d0:	2b82      	cmp	r3, #130	; 0x82
+ 80008d0:	2b7d      	cmp	r3, #125	; 0x7d
  80008d2:	d902      	bls.n	80008da <TIM4_IRQHandler+0x12>
 		pitch = Pitch_MAX;
  80008d4:	4b13      	ldr	r3, [pc, #76]	; (8000924 <TIM4_IRQHandler+0x5c>)
- 80008d6:	2282      	movs	r2, #130	; 0x82
+ 80008d6:	227d      	movs	r2, #125	; 0x7d
  80008d8:	801a      	strh	r2, [r3, #0]
 
 	if(pitch < Pitch_MIN)
  80008da:	4b12      	ldr	r3, [pc, #72]	; (8000924 <TIM4_IRQHandler+0x5c>)
  80008dc:	881b      	ldrh	r3, [r3, #0]
- 80008de:	2b43      	cmp	r3, #67	; 0x43
+ 80008de:	2b3d      	cmp	r3, #61	; 0x3d
  80008e0:	d802      	bhi.n	80008e8 <TIM4_IRQHandler+0x20>
 		pitch = Pitch_MIN;
  80008e2:	4b10      	ldr	r3, [pc, #64]	; (8000924 <TIM4_IRQHandler+0x5c>)
- 80008e4:	2244      	movs	r2, #68	; 0x44
+ 80008e4:	223e      	movs	r2, #62	; 0x3e
  80008e6:	801a      	strh	r2, [r3, #0]
 
 	if(roll > Roll_MAX)

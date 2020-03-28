@@ -12,8 +12,8 @@
 #include <string.h>
 #include "stm32_hal_legacy.h"
 
-#define Pitch_MAX 130
-#define Pitch_MIN 68
+#define Pitch_MAX 125
+#define Pitch_MIN 62
 
 #define Roll_MAX 95
 #define Roll_MIN 45
