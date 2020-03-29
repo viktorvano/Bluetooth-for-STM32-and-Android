@@ -97,16 +97,24 @@ int main(void)
   MX_TIM4_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-	HAL_Delay(200);
-	HAL_GPIO_WritePin(BluetoothReset_GPIO_Port, BluetoothReset_Pin, SET);
-	HAL_Delay(1000);
-	HAL_UART_Transmit(&huart2, (uint8_t*)"AT+NAMEGimbal", strlen("AT+NAMEGimbal"), 500);
-	memset(buffer, 0, sizeof(buffer));
-	HAL_TIM_Base_Start_IT(&htim2);
-	__HAL_UART_ENABLE_IT(&huart2, UART_IT_RXNE);
+
+	//Start servos
 	HAL_TIM_Base_Start_IT(&htim4);
 	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
 	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_4);
+
+	//Reset Bluetooth Module
+	HAL_Delay(200);
+	HAL_GPIO_WritePin(BluetoothReset_GPIO_Port, BluetoothReset_Pin, SET);
+	HAL_Delay(1000);
+	//Name Bluetooth Gimbal
+	HAL_UART_Transmit(&huart2, (uint8_t*)"AT+NAMEGimbal", strlen("AT+NAMEGimbal"), 500);
+	HAL_Delay(200);
+
+	memset(buffer, 0, sizeof(buffer));//clear buffer
+	HAL_TIM_Base_Start_IT(&htim2);// start timer 2 for receiving timeout
+	__HAL_UART_ENABLE_IT(&huart2, UART_IT_RXNE); // enable UART RX interrupt
+	HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, RESET);//LED ON - Everything is initialized
   /* USER CODE END 2 */
 
   /* Infinite loop */
