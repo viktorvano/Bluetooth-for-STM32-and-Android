@@ -746,6 +746,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id buttonExit
 id buttonPanel
 id button_scan
 id center_vertical
@@ -961,6 +962,7 @@ string app_name
 string bt_not_enabled_leaving
 string button_scan
 string discoverable
+string exit
 string insecure_connect
 string intro_message
 string none_found

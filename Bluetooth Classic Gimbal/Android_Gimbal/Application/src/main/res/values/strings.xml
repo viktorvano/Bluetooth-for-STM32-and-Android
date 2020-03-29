@@ -26,6 +26,7 @@
     <string name="received">Received:</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
+    <string name="exit">Exit App</string>
 
     <!--  DeviceListActivity -->
     <string name="scanning">scanning for devices...</string>

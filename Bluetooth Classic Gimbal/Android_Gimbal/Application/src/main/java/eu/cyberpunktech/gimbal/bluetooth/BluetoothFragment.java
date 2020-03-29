@@ -62,6 +62,7 @@ public class BluetoothFragment extends Fragment implements SensorEventListener {
     private static final int REQUEST_ENABLE_BT = 3;
 
     // Layout Views
+    private Button buttonExit;
     private TextView textViewGravity;
     private String receiveBuffer = "";
 
@@ -205,6 +206,14 @@ public class BluetoothFragment extends Fragment implements SensorEventListener {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         textViewGravity = view.findViewById(R.id.textViewGravity);
+        buttonExit = view.findViewById(R.id.buttonExit);
+        buttonExit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentActivity activity = getActivity();
+                activity.finish();
+            }
+        });
     }
 
     /**
