@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android_BluetoothLE_BMP280.iml" filepath="$PROJECT_DIR$/Android_BluetoothLE_BMP280.iml" group="Android_BluetoothLE_BMP280" />
+      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" group="Android_BluetoothLE_BMP280/Application" />
+    </modules>
+  </component>
+</project>
