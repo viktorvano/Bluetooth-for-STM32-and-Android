@@ -87,7 +87,6 @@ public class DeviceControlActivity extends Activity {
     private TextView textViewUpdate;
     private LineChart chartTemperature, chartPressure, chartAltitude;
     private Switch aSwitchRun;
-    private boolean run = false;
     private Button buttonClear;
 
     private String receiveBuffer = "";
@@ -373,7 +372,12 @@ public class DeviceControlActivity extends Activity {
     };
 
     private void clearUI() {
-        //TODO: clear everything
+        receiveBuffer="";
+        valuesTemperature.clear();
+        valuesPressure.clear();
+        valuesAltitude.clear();
+        startTime = 0.0;
+        updateCharts();
     }
 
     @SuppressLint("SourceLockedOrientationActivity")
@@ -399,13 +403,6 @@ public class DeviceControlActivity extends Activity {
         initializeCharts();
 
         aSwitchRun = findViewById(R.id.switchRun);
-        run = aSwitchRun.isChecked();
-        aSwitchRun.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                run = aSwitchRun.isChecked();
-            }
-        });
 
         textViewUpdate = findViewById(R.id.textViewUpdate);
 
@@ -435,10 +432,7 @@ public class DeviceControlActivity extends Activity {
         buttonClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                valuesTemperature.clear();
-                valuesPressure.clear();
-                valuesAltitude.clear();
-                startTime = 0.0;
+                clearUI();
             }
         });
 
@@ -447,7 +441,7 @@ public class DeviceControlActivity extends Activity {
             public void run()
             {
                 handler.postDelayed(this, updatePeriod);
-                if(mConnected && run)
+                if(mConnected && aSwitchRun.isChecked())
                     mBluetoothLeService.writeCharacteristic("get\n");
             }
         }, updatePeriod);
