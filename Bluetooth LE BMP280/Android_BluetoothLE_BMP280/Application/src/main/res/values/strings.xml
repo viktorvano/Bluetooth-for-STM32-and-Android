@@ -34,10 +34,10 @@
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
 
-    <string name="message">Message to send</string>
-    <string name="send">Send</string>
 
     <string name="run">Run</string>
     <string name="clear">Clear Charts</string>
     <string name="update_rate">Update period: 1 second</string>
+
+    <string name="samples">Data set: 20</string>
 </resources>

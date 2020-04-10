@@ -392,7 +392,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">BluetoothLeGatt</string>
+    <string name="app_name">BMP280</string>
     <string name="ble_not_supported">BLE is not supported</string>
     <string name="clear">Clear Charts</string>
     <string name="connected">Connected</string>
@@ -415,11 +415,10 @@
     <string name="menu_disconnect">Disconnect</string>
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
-    <string name="message">Message to send</string>
     <string name="no_data">No data</string>
     <string name="run">Run</string>
+    <string name="samples">Data set: 20</string>
     <string name="search_menu_title">Search</string>
-    <string name="send">Send</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_devices">BLE Device Scan</string>
     <string name="unknown_characteristic">Unknown characteristic</string>

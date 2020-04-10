@@ -1,6 +1,4 @@
 
-group='com.github.philjay'
-
 buildscript {
     repositories {
         google()

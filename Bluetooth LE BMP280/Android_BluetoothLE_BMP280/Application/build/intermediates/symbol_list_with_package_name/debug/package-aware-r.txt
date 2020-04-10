@@ -799,6 +799,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seekBarDataSet
 id seekBarUpdate
 id select_dialog_listview
 id shortcut
@@ -826,6 +827,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textViewDataSet
 id textViewState
 id textViewUpdate
 id time
@@ -950,11 +952,10 @@ string menu_connect
 string menu_disconnect
 string menu_scan
 string menu_stop
-string message
 string no_data
 string run
+string samples
 string search_menu_title
-string send
 string status_bar_notification_info_overflow
 string title_devices
 string unknown_characteristic

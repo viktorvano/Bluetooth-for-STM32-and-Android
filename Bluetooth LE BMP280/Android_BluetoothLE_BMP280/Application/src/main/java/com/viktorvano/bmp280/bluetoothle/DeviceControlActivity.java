@@ -83,11 +83,12 @@ public class DeviceControlActivity extends Activity {
     private ArrayList<Entry> valuesAltitude = new ArrayList<>();
     private Handler handler = new Handler();
     private int updatePeriod = 1000;
-    private SeekBar seekBarUpdate;
-    private TextView textViewUpdate;
+    private SeekBar seekBarUpdate, seekBarDataSet;
+    private TextView textViewUpdate, textViewDataSet;
     private LineChart chartTemperature, chartPressure, chartAltitude;
     private Switch aSwitchRun;
     private Button buttonClear;
+    private int maximumDataSet = 20;
 
     private String receiveBuffer = "";
 
@@ -146,6 +147,15 @@ public class DeviceControlActivity extends Activity {
                 valuesTemperature.add(new Entry((float)time, temperature));
                 valuesPressure.add(new Entry((float)time, pressure));
                 valuesAltitude.add(new Entry((float)time, altitude));
+
+                while(valuesTemperature.size() > maximumDataSet)
+                    valuesTemperature.remove(0);
+
+                while(valuesPressure.size() > maximumDataSet)
+                    valuesPressure.remove(0);
+
+                while(valuesAltitude.size() > maximumDataSet)
+                    valuesAltitude.remove(0);
 
                 updateCharts();
             }
@@ -406,6 +416,9 @@ public class DeviceControlActivity extends Activity {
 
         textViewUpdate = findViewById(R.id.textViewUpdate);
 
+        textViewDataSet = findViewById(R.id.textViewDataSet);
+        textViewDataSet.setText("Data set: " + maximumDataSet);
+
         seekBarUpdate = findViewById(R.id.seekBarUpdate);
         seekBarUpdate.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
@@ -415,6 +428,25 @@ public class DeviceControlActivity extends Activity {
                     textViewUpdate.setText("Update period: " + (progress + 1) + " seconds");
                 else
                     textViewUpdate.setText("Update period: 1 second");
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
+        seekBarDataSet = findViewById(R.id.seekBarDataSet);
+        seekBarDataSet.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                maximumDataSet = progress + 20;
+                textViewDataSet.setText("Data set: " + (progress + 20));
             }
 
             @Override
@@ -441,8 +473,13 @@ public class DeviceControlActivity extends Activity {
             public void run()
             {
                 handler.postDelayed(this, updatePeriod);
-                if(mConnected && aSwitchRun.isChecked())
-                    mBluetoothLeService.writeCharacteristic("get\n");
+                try {
+                    if(mConnected && aSwitchRun.isChecked())
+                        mBluetoothLeService.writeCharacteristic("get\n");
+                }catch (Exception e)
+                {
+                    e.printStackTrace();
+                }
             }
         }, updatePeriod);
     }

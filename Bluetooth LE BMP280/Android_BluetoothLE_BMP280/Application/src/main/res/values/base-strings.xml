@@ -16,7 +16,7 @@
 -->
 
 <resources>
-    <string name="app_name">BluetoothLeGatt</string>
+    <string name="app_name">BMP280</string>
     <string name="intro_message">
         <![CDATA[
         
