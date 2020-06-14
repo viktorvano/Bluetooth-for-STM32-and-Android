@@ -17,6 +17,8 @@ RFID Tutorial: https://www.youtube.com/watch?v=ARtuPrKluho
    
 Displaying data from BMP280 in a chart: https://www.youtube.com/watch?v=MlOEx_Op3w8  
 For this project I have used this library via Gradle - those are amazing charts: https://github.com/PhilJay/MPAndroidChart  
+Wiring diagram:  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20BMP280/SchematicWiring.png?raw=true)  
   
+Module wiring modification for I2C:  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20BMP280/BMP280%20module%20wiring%20mod.png?raw=true)  
