@@ -28,3 +28,6 @@ ECG wiring:
   
 ECG electrode placement and heart potertial:  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG-3-electrodes.png?raw=true)  
+  
+ECG waveform:  
+![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/PQRST.png?raw=true)  
