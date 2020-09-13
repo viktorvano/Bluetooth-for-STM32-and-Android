@@ -1,0 +1,197 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:1-52:12
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ed25260ee8b4e744f0f64e466435c78c\support-v13-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\84cb7de5e4536d78a1dfce4d3b2ae7d2\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\287b81395e8a6af72b16997b2b264ea9\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\0c91d46fdd28334f30b1556655513aca\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6aa08304add994e185ee5bd49f0fc102\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\a77fdbb2d663949cc1b1459f86479907\MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\557db7c73cb6ea7b75c71195a4d80729\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c88c593eadb3214baf9beaf10235fc22\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\19441647dde82811e0f8850f322a3735\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\4befd111260781b0887d9350daa1408f\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\b71e3287f1352736da0fec142f5211bc\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\1562b3719554fa4903e28dcd9508f1e8\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\1960372ea23d13d4be6b794726d2c6fe\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\79c2c073fb018aa76bf35cb91e185267\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\02032d4eab5e547a1b10f7e2cc64a621\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c18f1110e437299982044281d0c4793e\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\93c727039c2c74ecaba4a69e6b45f348\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\405a1595a62182966429e903f61cf49f\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\260c840e37b370d2335ed59b13f58d79\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\3eeba095a054eadfbf9f84a901c648d9\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c974b53ff623607867e85f86170dbc65\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\8ea6ac34f223929050e42d0d41b55557\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\97d9e80cc06bd1716c9a1c83dcdf0e1a\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\4008b816f163fba5a2697c0a5560c682\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\e3c4d05a27bf4f4552df5090537133ea\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\326b07dc58f3196235573cd7c3eaefad\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\7312172b974aad26593142162affd51c\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\0bff491a10253e576df70f25d663fdb9\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6920a4ecf0c2443f01cbd9424474ed41\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\aa31b21d37fa785af8be2696040c0070\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\3cdd09ad7aea26e45644d6466a6ff4d1\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:1-52:12
+	package
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:21:5-35
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:31:5-89
+	android:required
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:31:64-87
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:31:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:34:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:36:22-76
+application
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:38:5-50:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6aa08304add994e185ee5bd49f0fc102\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6aa08304add994e185ee5bd49f0fc102\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c974b53ff623607867e85f86170dbc65\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c974b53ff623607867e85f86170dbc65\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:38:18-50
+	android:icon
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:39:9-45
+	android:theme
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:40:9-56
+activity#eu.cyberpunktech.ecg.DeviceScanActivity
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:41:9-47:20
+	android:label
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:41:19-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:44:17-68
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:45:27-74
+activity#eu.cyberpunktech.ecg.DeviceControlActivity
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:48:9-78
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:48:19-76
+service#eu.cyberpunktech.ecg.BluetoothLeService
+ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:49:9-97
+	android:enabled
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:49:73-95
+	android:name
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml:49:18-72
+uses-sdk
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ed25260ee8b4e744f0f64e466435c78c\support-v13-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ed25260ee8b4e744f0f64e466435c78c\support-v13-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\84cb7de5e4536d78a1dfce4d3b2ae7d2\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\84cb7de5e4536d78a1dfce4d3b2ae7d2\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\287b81395e8a6af72b16997b2b264ea9\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\287b81395e8a6af72b16997b2b264ea9\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\0c91d46fdd28334f30b1556655513aca\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\0c91d46fdd28334f30b1556655513aca\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6aa08304add994e185ee5bd49f0fc102\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6aa08304add994e185ee5bd49f0fc102\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\a77fdbb2d663949cc1b1459f86479907\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\a77fdbb2d663949cc1b1459f86479907\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\557db7c73cb6ea7b75c71195a4d80729\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\557db7c73cb6ea7b75c71195a4d80729\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c88c593eadb3214baf9beaf10235fc22\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c88c593eadb3214baf9beaf10235fc22\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\19441647dde82811e0f8850f322a3735\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\19441647dde82811e0f8850f322a3735\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\4befd111260781b0887d9350daa1408f\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\4befd111260781b0887d9350daa1408f\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\b71e3287f1352736da0fec142f5211bc\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\b71e3287f1352736da0fec142f5211bc\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\1562b3719554fa4903e28dcd9508f1e8\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\1562b3719554fa4903e28dcd9508f1e8\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\1960372ea23d13d4be6b794726d2c6fe\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\1960372ea23d13d4be6b794726d2c6fe\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\79c2c073fb018aa76bf35cb91e185267\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\79c2c073fb018aa76bf35cb91e185267\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\02032d4eab5e547a1b10f7e2cc64a621\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\02032d4eab5e547a1b10f7e2cc64a621\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c18f1110e437299982044281d0c4793e\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c18f1110e437299982044281d0c4793e\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\93c727039c2c74ecaba4a69e6b45f348\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\93c727039c2c74ecaba4a69e6b45f348\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\405a1595a62182966429e903f61cf49f\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\405a1595a62182966429e903f61cf49f\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\260c840e37b370d2335ed59b13f58d79\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\260c840e37b370d2335ed59b13f58d79\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\3eeba095a054eadfbf9f84a901c648d9\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\3eeba095a054eadfbf9f84a901c648d9\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c974b53ff623607867e85f86170dbc65\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\c974b53ff623607867e85f86170dbc65\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\8ea6ac34f223929050e42d0d41b55557\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\8ea6ac34f223929050e42d0d41b55557\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\97d9e80cc06bd1716c9a1c83dcdf0e1a\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\97d9e80cc06bd1716c9a1c83dcdf0e1a\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\4008b816f163fba5a2697c0a5560c682\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\4008b816f163fba5a2697c0a5560c682\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\e3c4d05a27bf4f4552df5090537133ea\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\e3c4d05a27bf4f4552df5090537133ea\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\326b07dc58f3196235573cd7c3eaefad\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\326b07dc58f3196235573cd7c3eaefad\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\7312172b974aad26593142162affd51c\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\7312172b974aad26593142162affd51c\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\0bff491a10253e576df70f25d663fdb9\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\0bff491a10253e576df70f25d663fdb9\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6920a4ecf0c2443f01cbd9424474ed41\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\6920a4ecf0c2443f01cbd9424474ed41\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\aa31b21d37fa785af8be2696040c0070\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\aa31b21d37fa785af8be2696040c0070\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\3cdd09ad7aea26e45644d6466a6ff4d1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-2\files-2.1\3cdd09ad7aea26e45644d6466a6ff4d1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+		ADDED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Google Drive\AndroidStudioProjects\BlueECG\Application\src\main\AndroidManifest.xml

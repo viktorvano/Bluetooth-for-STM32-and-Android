@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "eu.cyberpunktech.ecg",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "Application-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "eu.cyberpunktech.ecg",
+        "split": "",
+        "minSdkVersion": "18"
+      }
+    }
+  ]
+}
