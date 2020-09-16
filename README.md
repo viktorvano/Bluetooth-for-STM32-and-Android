@@ -27,7 +27,7 @@ ECG 2 lead wiring:
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram%20-%202%20lead%20ECG.png?raw=true)  
   
 ECG 3 lead wiring:  
-![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram%20-%202%20lead%20ECG.png?raw=true)  
+![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram%20-%203%20lead%20ECG.png?raw=true)  
   
 ECG electrode placement and heart potertial:  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG-3-electrodes.png?raw=true)  
