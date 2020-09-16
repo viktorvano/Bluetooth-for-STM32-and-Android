@@ -23,8 +23,11 @@ Wiring diagram:
 Module wiring modification for I2C:  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20BMP280/BMP280%20module%20wiring%20mod.png?raw=true)  
   
-ECG wiring:  
-![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram.png?raw=true)  
+ECG 2 lead wiring:  
+![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram%20-%202lead%20ECG.png?raw=true)  
+  
+ECG 3 lead wiring:  
+![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram%20-%203lead%20ECG.png?raw=true)  
   
 ECG electrode placement and heart potertial:  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG-3-electrodes.png?raw=true)  
