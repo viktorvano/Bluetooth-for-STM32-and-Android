@@ -110,18 +110,7 @@ int main(void)
   HAL_Delay(1000);
   HAL_TIM_Base_Start_IT(&htim2);
   memset(ADC_Values, 0, sizeof(ADC_Values));
-  for(int i=0; i<4; i++)
-  {
-	  ADC_Values[i][64] = '\n';
-	  for(int x=0; x<64; x++)
-	  {
-		  ADC_Values[i][x] = ECG[x+64*i]/2;
-		  if(ADC_Values[i][x] == 0)
-			  ADC_Values[i][x] = 1;
-		  else if(ADC_Values[i][x] == 10)
-			  ADC_Values[i][x] = 11;
-	  }
-  }
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
