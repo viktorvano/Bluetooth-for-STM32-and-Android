@@ -122,22 +122,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="335" key="GridCell.Tab.0.bottom" timestamp="1599986636479">
+    <state width="1637" height="562" key="GridCell.Tab.0.bottom" timestamp="1600271930264">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="335" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1599986636479" />
-    <state width="1637" height="335" key="GridCell.Tab.0.center" timestamp="1599986636479">
+    <state width="1637" height="562" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600271930264" />
+    <state width="1637" height="562" key="GridCell.Tab.0.center" timestamp="1600271930264">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="335" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1599986636479" />
-    <state width="1637" height="335" key="GridCell.Tab.0.left" timestamp="1599986636479">
+    <state width="1637" height="562" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600271930264" />
+    <state width="1637" height="562" key="GridCell.Tab.0.left" timestamp="1600271930264">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="335" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1599986636479" />
-    <state width="1637" height="335" key="GridCell.Tab.0.right" timestamp="1599986636479">
+    <state width="1637" height="562" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600271930264" />
+    <state width="1637" height="562" key="GridCell.Tab.0.right" timestamp="1600271930264">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="335" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1599986636479" />
+    <state width="1637" height="562" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600271930264" />
     <state width="1637" height="335" key="GridCell.Tab.1.bottom" timestamp="1599986636479">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -154,25 +154,13 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1637" height="335" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1599986636479" />
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1599987308836">
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1600271975568">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1599987308836" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/eu/cyberpunktech/ecg/DeviceControlActivity.java</url>
-          <line>306</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/eu/cyberpunktech/ecg/DeviceControlActivity.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1600271975568" />
+    <state x="536" y="103" width="607" height="804" key="find.popup" timestamp="1600270313674">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="536" y="103" width="607" height="804" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1600270313674" />
   </component>
 </project>

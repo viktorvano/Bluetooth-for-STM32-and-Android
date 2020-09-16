@@ -87,8 +87,8 @@ public class DeviceControlActivity extends Activity {
     private final float sampleTime = 1.0f/64.0f;
     private float[] data = new float[64];
     private int index = 0;
-    private boolean busy = false;
-    private final int updatePeriod = 15;
+    private boolean dataAvailable = false;
+    private final int updatePeriod = 61;// 4 * (1/64) = 62.5ms - Period must be a little bit faster
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -111,6 +111,10 @@ public class DeviceControlActivity extends Activity {
     };
 
     private void messageHandler() {
+        if(dataAvailable)
+            System.out.println("Chart has NOT finished drawing.");
+        else
+            System.out.println("Chart HAS finished drawing.");
         String[] stringNumbers;// = new String[];
         stringNumbers = receiveBuffer.split(",");
         for(int i=0; i < stringNumbers.length; i++)
@@ -130,12 +134,21 @@ public class DeviceControlActivity extends Activity {
             else
             {
                 if(i<64)
-                    data[i] = Float.parseFloat(stringNumbers[i]);
+                {
+                    try
+                    {
+                        data[i] = Float.parseFloat(stringNumbers[i]);
+                    }catch (Exception e)
+                    {
+                        e.printStackTrace();
+                        data[i] = 2048.0f;
+                    }
+                }
                 else
                     System.out.println("Extra number[" + i + "]: " + Float.parseFloat(stringNumbers[i]));
             }
         }
-
+        dataAvailable = true;
     }
 
     // Handles various events fired by the Service.
@@ -294,18 +307,25 @@ public class DeviceControlActivity extends Activity {
 
     private void updateRoutine()
     {
-        if(!busy)
+        if(dataAvailable)
         {
-            busy = true;
-            values.set(index, new Entry(index*sampleTime, data[index%64]));
-            index++;
+            for(int i=0; i<4; i++)
+            {
+                values.set(index, new Entry(index*sampleTime, data[index%64]));
+                index++;
+            }
             if(index == 512)
                 index = 0;
+
+            if(index%64 == 0)
+            {
+                dataAvailable = false;
+                System.out.println("Waiting for new data.");
+            }
             updateChart();
         }
         else
-            System.out.println("Runnable busy...");
-        busy = false;
+            System.out.println("Runnable is doing nothing...");
     }
 
     @Override
