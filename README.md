@@ -25,10 +25,10 @@ Module wiring modification for I2C:
   
 ECG tutorial video: https://www.youtube.com/watch?v=gboCV7RqehE  
   
-ECG 2 lead wiring:  
+ECG 2 wire configuration (single lead):  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram%20-%202%20lead%20ECG.png?raw=true)  
   
-ECG 3 lead wiring:  
+ECG 3 wire configuration (single lead):  
 ![alt text](https://github.com/viktorvano/Bluetooth-for-STM32-and-Android/blob/master/Bluetooth%20LE%20ECG/ECG%20schematic%20diagram%20-%203%20lead%20ECG.png?raw=true)  
   
 ECG electrode placement and heart potertial:  
