@@ -1,0 +1,24 @@
+com/example/android/haptic_stimulator/BluetoothLeService.java
+ com.example.android.haptic_stimulator.BluetoothLeService
+ com.example.android.haptic_stimulator.BluetoothLeService$1
+ com.example.android.haptic_stimulator.BluetoothLeService$LocalBinder
+com/example/android/haptic_stimulator/BuildConfig.java
+ com.example.android.haptic_stimulator.BuildConfig
+com/example/android/haptic_stimulator/SampleGattAttributes.java
+ com.example.android.haptic_stimulator.SampleGattAttributes
+com/example/android/haptic_stimulator/DeviceScanActivity.java
+ com.example.android.haptic_stimulator.DeviceScanActivity
+ com.example.android.haptic_stimulator.DeviceScanActivity$1
+ com.example.android.haptic_stimulator.DeviceScanActivity$2
+ com.example.android.haptic_stimulator.DeviceScanActivity$2$1
+ com.example.android.haptic_stimulator.DeviceScanActivity$LeDeviceListAdapter
+ com.example.android.haptic_stimulator.DeviceScanActivity$ViewHolder
+com/example/android/haptic_stimulator/DeviceControlActivity.java
+ com.example.android.haptic_stimulator.DeviceControlActivity
+ com.example.android.haptic_stimulator.DeviceControlActivity$1
+ com.example.android.haptic_stimulator.DeviceControlActivity$2
+ com.example.android.haptic_stimulator.DeviceControlActivity$3
+ com.example.android.haptic_stimulator.DeviceControlActivity$4
+ com.example.android.haptic_stimulator.DeviceControlActivity$5
+ com.example.android.haptic_stimulator.DeviceControlActivity$6
+ com.example.android.haptic_stimulator.DeviceControlActivity$7

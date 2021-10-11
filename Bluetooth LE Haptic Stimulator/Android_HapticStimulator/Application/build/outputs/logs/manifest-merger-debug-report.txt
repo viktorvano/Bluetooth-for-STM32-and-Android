@@ -1,0 +1,198 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:1-54:12
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:1-54:12
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:1-54:12
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:1-54:12
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d43e0056b6a01969fdbe40b45a1aef1e\transformed\support-v13-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\4f79687481d81fce64b9aea0574a822a\transformed\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ae0147c0b827ab8af8c45b5ef28395ad\transformed\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-3\4af9808a9d01f52de3df22fd185d8f4a\transformed\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\1fc9a997f9dac476611511a7c4a43a7d\transformed\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:1-54:12
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:1-54:12
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:1-54:12
+	package
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:21:5-52
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+uses-feature#android.hardware.haptic_stimulator
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:31:5-94
+	android:required
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:31:69-92
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:31:19-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:34:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:36:22-76
+application
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:38:5-52:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-3\4af9808a9d01f52de3df22fd185d8f4a\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-3\4af9808a9d01f52de3df22fd185d8f4a\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:38:18-50
+	android:icon
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:39:9-45
+	android:theme
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:40:9-56
+activity#com.example.android.haptic_stimulator.DeviceScanActivity
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:41:9-48:20
+	android:screenOrientation
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:41:19-90
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:44:13-47:29
+action#android.intent.action.MAIN
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:45:17-68
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:46:27-74
+activity#com.example.android.haptic_stimulator.DeviceControlActivity
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:49:9-50:51
+	android:screenOrientation
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:49:19-93
+service#com.example.android.haptic_stimulator.BluetoothLeService
+ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:51:9-114
+	android:enabled
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:51:90-112
+	android:name
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml:51:18-89
+uses-sdk
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d43e0056b6a01969fdbe40b45a1aef1e\transformed\support-v13-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d43e0056b6a01969fdbe40b45a1aef1e\transformed\support-v13-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\4f79687481d81fce64b9aea0574a822a\transformed\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\4f79687481d81fce64b9aea0574a822a\transformed\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ae0147c0b827ab8af8c45b5ef28395ad\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ae0147c0b827ab8af8c45b5ef28395ad\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-3\4af9808a9d01f52de3df22fd185d8f4a\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vikto\.gradle\caches\transforms-3\4af9808a9d01f52de3df22fd185d8f4a\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\1fc9a997f9dac476611511a7c4a43a7d\transformed\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\1fc9a997f9dac476611511a7c4a43a7d\transformed\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vikto\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vikto\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\Bluetooth-for-STM32-and-Android\Bluetooth LE Haptic Stimulator\Android_HapticStimulator\Application\src\main\AndroidManifest.xml

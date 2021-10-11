@@ -1,0 +1,4 @@
+#Mon Oct 11 18:17:36 CEST 2021
+base.0=D\:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

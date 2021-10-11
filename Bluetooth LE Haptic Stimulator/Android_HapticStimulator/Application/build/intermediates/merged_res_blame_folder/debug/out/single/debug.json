@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\layout_listitem_device.xml.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\layout_gatt_services_characteristics.xml.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\menu_gatt_services.xml.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_tile.9.png.flat",
+        "source": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    }
+]

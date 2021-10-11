@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Documents\\GitHub\\Bluetooth-for-STM32-and-Android\\Bluetooth LE Haptic Stimulator\\Android_HapticStimulator\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vikto\\.gradle\\caches\\transforms-3\\8fd11623966bb0584e113cba6c369170\\transformed\\appcompat-v7-28.0.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
