@@ -44,7 +44,7 @@ void messageHandler()
 	int position = 0;
 	if((position = string_contains((char*)buffer, "value:", buffer_index)) != -1)
 	{
-		value = (uint8_t)atoi((char*)&buffer[position]);
+		value = (uint8_t)atoi((char*)&buffer[6]);
 	}
 	clear_Buffer();
 	__HAL_UART_ENABLE_IT(&huart1, UART_IT_RXNE);

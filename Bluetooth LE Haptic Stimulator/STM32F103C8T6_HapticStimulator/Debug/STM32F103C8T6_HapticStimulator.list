@@ -37,13 +37,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  00017e11  00000000  00000000  00030450  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000c9c1  00000000  00000000  00048261  2**0
+ 17 .debug_line   0000c9bd  00000000  00000000  00048261  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0008a6ce  00000000  00000000  00054c22  2**0
+ 18 .debug_str    0008a6ce  00000000  00000000  00054c1e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000df2f0  2**0
+ 19 .comment      00000053  00000000  00000000  000df2ec  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000032a8  00000000  00000000  000df344  2**2
+ 20 .debug_frame  000032a8  00000000  00000000  000df340  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -734,10 +734,10 @@ void messageHandler()
  80004fe:	b082      	sub	sp, #8
  8000500:	af00      	add	r7, sp, #0
 	__HAL_UART_DISABLE_IT(&huart1, UART_IT_RXNE);
- 8000502:	4b17      	ldr	r3, [pc, #92]	; (8000560 <messageHandler+0x64>)
+ 8000502:	4b16      	ldr	r3, [pc, #88]	; (800055c <messageHandler+0x60>)
  8000504:	681b      	ldr	r3, [r3, #0]
  8000506:	68da      	ldr	r2, [r3, #12]
- 8000508:	4b15      	ldr	r3, [pc, #84]	; (8000560 <messageHandler+0x64>)
+ 8000508:	4b14      	ldr	r3, [pc, #80]	; (800055c <messageHandler+0x60>)
  800050a:	681b      	ldr	r3, [r3, #0]
  800050c:	f022 0220 	bic.w	r2, r2, #32
  8000510:	60da      	str	r2, [r3, #12]
@@ -745,48 +745,47 @@ void messageHandler()
  8000512:	2300      	movs	r3, #0
  8000514:	607b      	str	r3, [r7, #4]
 	if((position = string_contains((char*)buffer, "value:", buffer_index)) != -1)
- 8000516:	4b13      	ldr	r3, [pc, #76]	; (8000564 <messageHandler+0x68>)
+ 8000516:	4b12      	ldr	r3, [pc, #72]	; (8000560 <messageHandler+0x64>)
  8000518:	781b      	ldrb	r3, [r3, #0]
  800051a:	b29b      	uxth	r3, r3
  800051c:	461a      	mov	r2, r3
- 800051e:	4912      	ldr	r1, [pc, #72]	; (8000568 <messageHandler+0x6c>)
- 8000520:	4812      	ldr	r0, [pc, #72]	; (800056c <messageHandler+0x70>)
+ 800051e:	4911      	ldr	r1, [pc, #68]	; (8000564 <messageHandler+0x68>)
+ 8000520:	4811      	ldr	r0, [pc, #68]	; (8000568 <messageHandler+0x6c>)
  8000522:	f7ff ffbe 	bl	80004a2 <string_contains>
  8000526:	6078      	str	r0, [r7, #4]
  8000528:	687b      	ldr	r3, [r7, #4]
  800052a:	f1b3 3fff 	cmp.w	r3, #4294967295
- 800052e:	d009      	beq.n	8000544 <messageHandler+0x48>
+ 800052e:	d006      	beq.n	800053e <messageHandler+0x42>
 	{
-		value = (uint8_t)atoi((char*)&buffer[position]);
- 8000530:	687b      	ldr	r3, [r7, #4]
- 8000532:	4a0e      	ldr	r2, [pc, #56]	; (800056c <messageHandler+0x70>)
- 8000534:	4413      	add	r3, r2
- 8000536:	4618      	mov	r0, r3
- 8000538:	f002 fb0c 	bl	8002b54 <atoi>
- 800053c:	4603      	mov	r3, r0
- 800053e:	b2da      	uxtb	r2, r3
- 8000540:	4b0b      	ldr	r3, [pc, #44]	; (8000570 <messageHandler+0x74>)
- 8000542:	701a      	strb	r2, [r3, #0]
+		value = (uint8_t)atoi((char*)&buffer[6]);
+ 8000530:	480e      	ldr	r0, [pc, #56]	; (800056c <messageHandler+0x70>)
+ 8000532:	f002 fb0f 	bl	8002b54 <atoi>
+ 8000536:	4603      	mov	r3, r0
+ 8000538:	b2da      	uxtb	r2, r3
+ 800053a:	4b0d      	ldr	r3, [pc, #52]	; (8000570 <messageHandler+0x74>)
+ 800053c:	701a      	strb	r2, [r3, #0]
 	}
 	clear_Buffer();
- 8000544:	f000 f816 	bl	8000574 <clear_Buffer>
+ 800053e:	f000 f819 	bl	8000574 <clear_Buffer>
 	__HAL_UART_ENABLE_IT(&huart1, UART_IT_RXNE);
- 8000548:	4b05      	ldr	r3, [pc, #20]	; (8000560 <messageHandler+0x64>)
+ 8000542:	4b06      	ldr	r3, [pc, #24]	; (800055c <messageHandler+0x60>)
+ 8000544:	681b      	ldr	r3, [r3, #0]
+ 8000546:	68da      	ldr	r2, [r3, #12]
+ 8000548:	4b04      	ldr	r3, [pc, #16]	; (800055c <messageHandler+0x60>)
  800054a:	681b      	ldr	r3, [r3, #0]
- 800054c:	68da      	ldr	r2, [r3, #12]
- 800054e:	4b04      	ldr	r3, [pc, #16]	; (8000560 <messageHandler+0x64>)
- 8000550:	681b      	ldr	r3, [r3, #0]
- 8000552:	f042 0220 	orr.w	r2, r2, #32
- 8000556:	60da      	str	r2, [r3, #12]
+ 800054c:	f042 0220 	orr.w	r2, r2, #32
+ 8000550:	60da      	str	r2, [r3, #12]
 }
- 8000558:	bf00      	nop
- 800055a:	3708      	adds	r7, #8
- 800055c:	46bd      	mov	sp, r7
- 800055e:	bd80      	pop	{r7, pc}
- 8000560:	20000090 	.word	0x20000090
- 8000564:	2000008e 	.word	0x2000008e
- 8000568:	08002d14 	.word	0x08002d14
- 800056c:	2000011c 	.word	0x2000011c
+ 8000552:	bf00      	nop
+ 8000554:	3708      	adds	r7, #8
+ 8000556:	46bd      	mov	sp, r7
+ 8000558:	bd80      	pop	{r7, pc}
+ 800055a:	bf00      	nop
+ 800055c:	20000090 	.word	0x20000090
+ 8000560:	2000008e 	.word	0x2000008e
+ 8000564:	08002d14 	.word	0x08002d14
+ 8000568:	2000011c 	.word	0x2000011c
+ 800056c:	20000122 	.word	0x20000122
  8000570:	2000008c 	.word	0x2000008c
 
 08000574 <clear_Buffer>:
